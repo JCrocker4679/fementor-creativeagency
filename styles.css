@@ -262,7 +262,8 @@ p {
 .approach .left-content {
 	position: relative;
 	width: 100%;
-	padding: 5rem 3rem 5rem 4rem;
+	padding: 5rem 3rem 5rem 2rem;
+	margin-left: 5%;
 }
 
 .approach .left-content h2 {
@@ -351,6 +352,10 @@ p {
 	gap: 2rem;
 }
 
+.slider .left-content .title-container {
+	margin-left: 8%;
+}
+
 .slider .arrows {
 	flex-direction: row;
 	align-self: start;
@@ -381,7 +386,7 @@ p {
 	position: absolute;
 	color: #fff;
 	bottom: 3rem;
-	right: 3rem;
+	right: 7%;
 	text-align: right;
 	padding: 0.5rem;
 	background-color: rgba(0, 0, 0, 0.4);
@@ -408,10 +413,11 @@ p {
 
 .footer-waves {
 	position: absolute;
-	left: -5.75rem;
-	top: 2.5rem;
+	top: 20px;
+	left: -10%;
 	width: 134px;
 	height: 60px;
+	margin-left: -10%;
 }
 .footer-flex {
 	display: flex;
@@ -419,10 +425,14 @@ p {
 	align-items: center;
 }
 
+.footer .title-and-wave {
+	display: flex;
+	position: relative;
+}
+
 .footer h2 {
 	max-width: 50%;
 	min-width: 554px;
-	margin-left: 5%;
 }
 
 .footer .btn:hover {
