@@ -310,6 +310,12 @@ p {
 		right: -40px;
 	}
 
+	/* Design Approach */
+
+	.approach .container-lg {
+		display: flex;
+	}
+
 	@media (max-width: 767px) {
 		.navbar .container-lg {
 			background-image: none;
