@@ -80,6 +80,7 @@ p {
 	padding: 1.5rem 2rem;
 	color: #fff;
 	font-weight: 700;
+	min-width: 170px;
 }
 
 .show {
